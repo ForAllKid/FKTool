@@ -13,6 +13,7 @@
 		71B8AC9D1F0B7108001FB259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B8AC9B1F0B7108001FB259 /* Main.storyboard */; };
 		71B8AC9F1F0B7108001FB259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B8AC9E1F0B7108001FB259 /* Assets.xcassets */; };
 		71B8ACA21F0B7108001FB259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B8ACA01F0B7108001FB259 /* LaunchScreen.storyboard */; };
+		71B8ACCF1F0B76DD001FB259 /* FKTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8ACCE1F0B76DD001FB259 /* FKTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		71B8AC9E1F0B7108001FB259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B8ACA11F0B7108001FB259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71B8ACA31F0B7108001FB259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B8ACCD1F0B76DD001FB259 /* FKTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKTool.h; sourceTree = "<group>"; };
+		71B8ACCE1F0B76DD001FB259 /* FKTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		71B8AC911F0B7108001FB259 /* FKTool */ = {
 			isa = PBXGroup;
 			children = (
+				71B8ACCC1F0B76D2001FB259 /* FKTools */,
 				71B8AC951F0B7108001FB259 /* AppDelegate.h */,
 				71B8AC961F0B7108001FB259 /* AppDelegate.m */,
 				71B8AC981F0B7108001FB259 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				71B8AC931F0B7108001FB259 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71B8ACCC1F0B76D2001FB259 /* FKTools */ = {
+			isa = PBXGroup;
+			children = (
+				71B8ACCD1F0B76DD001FB259 /* FKTool.h */,
+				71B8ACCE1F0B76DD001FB259 /* FKTool.m */,
+			);
+			path = FKTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				71B8AC9A1F0B7108001FB259 /* ViewController.m in Sources */,
 				71B8AC971F0B7108001FB259 /* AppDelegate.m in Sources */,
+				71B8ACCF1F0B76DD001FB259 /* FKTool.m in Sources */,
 				71B8AC941F0B7108001FB259 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
