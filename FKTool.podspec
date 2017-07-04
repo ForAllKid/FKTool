@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FKTool"
-  s.version      = "0.0.1"
+  s.version      = "v0.0.1"
   s.summary      = "it is a simple Tool!"
 
   # This description is used to generate tags and improve search results.
